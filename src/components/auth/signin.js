@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import SignInForm from './signinForm';
 
-
 class SignIn extends Component {
     render() {
         return (
@@ -12,7 +11,5 @@ class SignIn extends Component {
         )
     }
 }
-
-
 
 export default SignIn;

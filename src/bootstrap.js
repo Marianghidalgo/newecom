@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-import { createStore, applyMiddleware, compose } from "redux";
+import { createStore, applyMiddleware, compose } from 'redux';
 import { Router, Switch, Route } from 'react-router-dom';
 
 import Layout from "./components/layout";
 import reducers from "./reducers";
 import Signin from './components/auth/signin';
-import SignUp from "./components/auth/signup";
+import Signup from "./components/auth/signup";
 
 
 
@@ -26,7 +26,7 @@ function main() {
         <Switch>
             <Route path='/' exact component={Signin}/>
             <Route path='/signin' exact component={Signin}/>
-            <Route path='/signup' exact component={SignUp}/>
+            <Route path='/signup' exact component={Signup}/>
         </Switch>
 
       </Layout>
