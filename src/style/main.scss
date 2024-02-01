@@ -21,7 +21,9 @@ html {
 
 }
 
-
+body {
+    font-family: "Open Sans";
+}
 
 
 
@@ -32,4 +34,5 @@ html {
 @import 'headernavbar';
 @import 'auth/signin';
 @import 'auth/signup';
-@import 'auth/page-title.scss';
+@import 'auth/page-title';
+@import 'auth/form-fields';
